@@ -1,186 +1,186 @@
 Localization.define("fr_FR") do |l|
 
   # app/views/accounts/confirm.html.erb
-  l.store "You have successfully signed up", "Vous vous %etes inscrit avec succès"
-  l.store "Login %s", "Identifiant %s"
-  l.store "Password %s", "Mot de passe %"
-  l.store "Don't lose the mail sent at %s or you won't be able to login anymore", "Ne perdez pas l'email que nous venons de vous envoyer à l'adresse %s ou vous ne pourrez plus vous connecter à l'application"
-  l.store "Proceed to", "Connectez-vous à"
-  l.store "admin", "l'administration"
+  l.store "You have successfully signed up", "Έχετε εγγραφεί επιτυχώς"
+  l.store "Login %s", "Σύνδεση χρήστη %s"
+  l.store "Password %s", "Κωδικός πρόσβασης %"
+  l.store "Don't lose the mail sent at %s or you won't be able to login anymore", "Μη χάσετε το email που σας στείλαμε στη διεύθυνση %s, διαφορετικά δε θα μπορείτε να συνδεθείτε στην εφαρμογή"
+  l.store "Proceed to", "Συνεχίστε στο"
+  l.store "admin", "διαχείριση"
 
   # app/views/accounts/login.html.erb
-  l.store "Login", "Identifiant"
-  l.store "Password", "Mot de passe"
-  l.store "Remember me", "Rester connecté"
-  l.store "Back to ", "Revenir à "
+  l.store "Login", "Σύνδεση"
+  l.store "Password", "Κωδικός πρόσβασης"
+  l.store "Remember me", "Διατήρηση σύνδεσης"
+  l.store "Back to ", "Επιστροφή στο "
 
   # app/views/accounts/signup.html.erb
-  l.store "Username", "Identifiant"
+  l.store "Username", "Όνομα χρήστη"
   l.store "Email", "Email"
-  l.store "Signup", "S'inscrire"
+  l.store "Signup", "Εγγραφή"
 
   # app/views/admin/base/_recent_comments.html.erb
-  l.store "Recent comments", "Derniers commentaires"
+  l.store "Recent comments", "Πρόσφατα σχόλια"
 
   # app/views/admin/base/_recent_trackbacks.html.erb
-  l.store "Recent trackbacks", "Derniers rétroliens"
+  l.store "Recent trackbacks", "Πρόσφατες παραθέσεις"
 
   # app/views/admin/blacklist/_blacklist_patterns.html.erb
-  l.store "Pattern", "Motif"
-  l.store "Type", "Type"
-  l.store "Delete", "Supprimer"
+  l.store "Pattern", "Σχήμα"
+  l.store "Type", "Τύπος"
+  l.store "Delete", "Διαγραφή"
 
   # app/views/admin/blacklist/_form.html.erb
-  l.store "String", "Chaîne de caractères"
-  l.store "Regex", "Expression rationnelle"
+  l.store "String", "Συμβολοσειρά"
+  l.store "Regex", "Κανονική παράσταση"
 
   # app/views/admin/blacklist/_quick_post.html.erb
-  l.store "Cancel", "Annuler"
-  l.store "or", "ou"
-  l.store "Save", "Sauver"
+  l.store "Cancel", "Ακύρωση"
+  l.store "or", "ή"
+  l.store "Save", "Αποθήκευση"
 
   # app/views/admin/blacklist/destroy.html.erb
-  l.store "Are you sure you want to delete this item?", "Êtes vous certain de vouloir supprimer cette entrée ?"
-  l.store "Blacklist Patterns", "Liste noire"
+  l.store "Are you sure you want to delete this item?", "Είστε σίγουρος ότι επιθυμείτε να διαγράψετε αυτό το αντικείμενο ;"
+  l.store "Blacklist Patterns", "Μαύρη λίστα"
 
   # app/views/admin/blacklist/edit.html.erb
-  l.store "Editing pattern", "Éditer un motif"
+  l.store "Editing pattern", "Επεξεργασία σχήματος"
 
   # app/views/admin/blacklist/index.html.erb
-  l.store "add new", "nouveau"
+  l.store "add new", "προσθήκη νέου"
 
   # app/views/admin/categories/_categories.html.erb
-  l.store "Title", "Titre"
-  l.store "Posts", "Articles"
-  l.store "no articles", "aucun article"
-  l.store "1 article", "1 article"
-  l.store "%d articles", "%d articles"
+  l.store "Title", "Τίτλος"
+  l.store "Posts", "Άρθρο"
+  l.store "no articles", "κανένα άρθρο"
+  l.store "1 article", "1 άρθρο"
+  l.store "%d articles", "%d άρθρα"
 
   # app/views/admin/categories/_form.html.erb
-  l.store "Name", "Titre"
-  l.store "Keywords", "Mots clés"
-  l.store "Description", "Déscription"
+  l.store "Name", "Τίτλος"
+  l.store "Keywords", "Λέξεις κλειδιά"
+  l.store "Description", "Περιγραφή"
 
   # app/views/admin/categories/destroy.html.erb
-  l.store "Are you sure you want to delete the category ", "Êtes vous certain de vouloir supprimer cette catégorie "
-  l.store "Delete this category", "Supprimer cette catégorie"
-  l.store "Categories", "Catégories"
+  l.store "Are you sure you want to delete the category ", "Είστε σίγουρος ότι επιθυμείτε να διαγράψετε αυτή την κατηγορία "
+  l.store "Delete this category", "Διαγραφή κατηγορίας"
+  l.store "Categories", "Κατηγορίες"
 
   # app/views/admin/categories/index.html.erb
-  l.store "Reorder", "Trier"
-  l.store "Sort alphabetically", "Trier par ordre alphabétique"
+  l.store "Reorder", "Αναδιάταξη"
+  l.store "Sort alphabetically", "Αλφαβητική ταξινόμηση"
 
   # app/views/admin/categories/new.html.erb
-  l.store "%s Category", "%s catégories"
+  l.store "%s Category", "%s κατηγορίες"
 
   # app/views/admin/categories/reorder.html.erb
-  l.store "(Done)", "(Terminé)"
+  l.store "(Done)", "(Ολοκληρώθηκε)"
 
   # app/views/admin/content/_attachment.html.erb
-  l.store "Remove", "Supprimer"
-  l.store "Currently this article has the following resources", "Les fichiers suivants sont actuellement liés à ce billet"
+  l.store "Remove", "Διαγραφή"
+  l.store "Currently this article has the following resources", "Την παρούσα στιγμή αυτό το άρθρο έχει τα ακόλουθα στοιχεία"
   l.store "You can associate the following resources", "Vous pouvez y lier les fichiers suivants"
-  l.store "Really delete attachment", "Voulez-vous vraiment supprimer la pièce jointe"
-  l.store "Add Another Attachment", "Ajouter une autre pièce jointe"
+  l.store "Really delete attachment", "Θέλετε σίγουρα να διαγράψετε το συννημένο "
+  l.store "Add Another Attachment", "Προσθήκη άλλου συννημένου"
 
   # app/views/admin/content/_drafts.html.erb
-  l.store "Drafts:", "Brouillons"
+  l.store "Drafts:", "Πρόχειρα"
 
   # app/views/admin/content/_form.html.erb
-  l.store "Allow comments", "Autoriser les commentaires"
-  l.store "Allow trackbacks", "Autoriser les rétroliens"
-  l.store "Published", "Publié"
-  l.store "Publish", "Publier"
-  l.store "Tags", "Mots clés"
-  l.store "Excerpt", "Extraît"
-  l.store "Uploads", "Pièces jointes"
-  l.store "Post settings", "Paramètres de l'article"
-  l.store "Publish at", "Publié le"
-  l.store "Permalink", "Lien permanent"
-  l.store "Article filter", "Mise en forme des billets"
-  l.store "Save as draft", "Sauver comme brouillon"
+  l.store "Allow comments", "Ενεργοποίηση δυνατότητας σχολιασμού"
+  l.store "Allow trackbacks", "Ενεργοποίηση δυνατότητας παράθεσης"
+  l.store "Published", "Δημοσιεύτηκε"
+  l.store "Publish", "Δημοσίευση"
+  l.store "Tags", "Λέξεις κλειδιά"
+  l.store "Excerpt", "Απόσπασμα"
+  l.store "Uploads", "Αναφορτώσεις"
+  l.store "Post settings", "Ρυθμίσεις θέματος"
+  l.store "Publish at", "Δημοσιεύτηκε την"
+  l.store "Permalink", "Μόνιμος σύνδεσμος"
+  l.store "Article filter", "Φίλτρο άρθρου"
+  l.store "Save as draft", "Αποθήκευση ως πρόχειρο"
 
   # app/views/admin/content/destroy.html.erb
-  l.store "Are you sure you want to delete this article", "Êtes-vous certain de vouloir supprimer cet article"
-  l.store "Delete this article", "Supprimer ce billet"
-  l.store "Articles", "Articles"
+  l.store "Are you sure you want to delete this article", "Είστε σίγουρος ότι θέλετε να διαγράψετε αυτό το άρθρο"
+  l.store "Delete this article", "Διαγραφή άρθρου"
+  l.store "Articles", "Άρθρα"
 
   # app/views/admin/content/index.html.erb
-  l.store "Search articles that contains...", "Chercher les articles contenant..."
-  l.store "Search", "Chercher"
-  l.store "Date", "Date"
-  l.store "Author", "Auteur"
-  l.store "Status", "État"
-  l.store "Feedback", "Commentaires"
-  l.store "Filter", "Filtrer"
-  l.store "Manage articles", "Gérer les articles"
+  l.store "Search articles that contains...", "Αναζήτηση άρθρων που περιέχουν..."
+  l.store "Search", "Αναζήτηση"
+  l.store "Date", "Ημερομηνία"
+  l.store "Author", "Συντάκτης"
+  l.store "Status", "Κατάσταση"
+  l.store "Feedback", "Εντυπώσεις"
+  l.store "Filter", "Φίλτρο"
+  l.store "Manage articles", "Διαχείριση άρθρων"
 
   # app/views/admin/dashboard/_comments.html.erb
-  l.store "Latest Comments", "Derniers commentaires"
-  l.store "No comments yet", "Aucun commentaire"
-  l.store "by %s on %s", "par %s sur %s"
+  l.store "Latest Comments", "Τελευταία Σχόλια"
+  l.store "No comments yet", "Δεν υπάρχουν ακόμα σχόλια"
+  l.store "by %s on %s", "από %s έως %s"
 
   # app/views/admin/dashboard/_inbound.html.erb
-  l.store "Inbound links", "Liens entrants"
-  l.store "No one made a link to you yet", "Personne n'a fait de lien vers votre blog"
-  l.store " made a link to you saying ", " a fait un lien vers vous disant "
-  l.store "You have no internet connection", "Vous n'avez pas de connection à internet"
+  l.store "Inbound links", "Εισερχόμενοι σύνδεσμοι"
+  l.store "No one made a link to you yet", "Δεν υπάρχουν ακόμα σύνδεσμοι προς το ιστολόγιο σας"
+  l.store " made a link to you saying ", " έβαλε ένα σύνδεσμο προς το ιστολόγιο σας λέγοντας "
+  l.store "You have no internet connection", "Δεν έχετε ενεργή σύνδεση στο internet"
 
   # app/views/admin/dashboard/_overview.html.erb
-  l.store "This place gives you a quick overview of what happens on your Typo blog and what you can do. Maybe will you want to %s, %s or %s.", ""
-  l.store "update your profile or change your password", "mettre votre profil à jour ou changer votre mot de passe"
-  l.store "You can also do a bit of design, %s or %s.", "Vous pouvez également faire un peu de personnalisation, %s, %s"
-  l.store "change your blog presentation", "changer l'apparence de votre blog"
-  l.store "enable plugins", "activer des plugins"
-  l.store "write a post", "écrire un article"
-  l.store "write a page", "publier une page statique"
+  l.store "This place gives you a quick overview of what happens on your Typo blog and what you can do. Maybe will you want to %s, %s or %s.", "Εδώ θα βρείτε μια γρήγορη ανασκόπηση των γεγονότων που διαδραματίζονται στο Typo-ιστολόγιο σας και τι μπορείτε να κάνετε. 'Ισως θα επιθυμείτε να %s, %s ή %s."
+  l.store "update your profile or change your password", "επεξεργαστείτε το προφίλ σας ή να αλλάξετε τον κωδικό πρόσβασης"
+  l.store "You can also do a bit of design, %s or %s.", "Θα μπορούσατε επίσης να ασχοληθείτε λίγο με το σχεδιασμό, %s, %s"
+  l.store "change your blog presentation", "να αλλάξετε την εμφάνιση του ιστολογίου σας"
+  l.store "enable plugins", "να ενεργοποιήσετε πρόσθετα (plugins)"
+  l.store "write a post", "να γράψετε ένα άρθρο"
+  l.store "write a page", "να δημοσιεύσετε μια στατική σελίδα"
 
   # app/views/admin/dashboard/_popular.html.erb
-  l.store "Most popular", "Billets les plus populaires"
-  l.store "Nothing to show yet", "Rien à déclarer"
+  l.store "Most popular", "Τα πιο διάσημα"
+  l.store "Nothing to show yet", "Δεν υπάρχουν δεδομένα"
 
   # app/views/admin/dashboard/_posts.html.erb
-  l.store "Latest posts", "Derniers articles"
-  l.store "No posts yet, why don't you start and write one", "Vous n'avez encore écrit aucun billet, pourquoi ne pas commencer par là"
+  l.store "Latest posts", "Τελευταία θέμαατα"
+  l.store "No posts yet, why don't you start and write one", "Ακόμη δεν έχετε γράψει κανένα θέμα, γιατί δεν ξεκινάτε να γράψετε ένα"
 
   # app/views/admin/dashboard/_sysinfo.html.erb
-  l.store "System information", "Informations systèmes"
-  l.store "You're running Typo %s", "Vous utilisez Typo %s"
-  l.store "Statistics", "Statistiques"
-  l.store "Total posts : %d", "Nombre total d'articles : %d"
-  l.store "Your posts : %d", "Vous avez publié : %d articles "
-  l.store "Total comments : %d", "Nombre total de commentaires : %d"
-  l.store "Spam comments : %d", "Nombre total de spam : %d"
+  l.store "System information", "Πληροφορίες συστήματος"
+  l.store "You're running Typo %s", "Χρησιμοποιείτε Typo %s"
+  l.store "Statistics", "Στατιστικά"
+  l.store "Total posts : %d", "Συνολικός αριθμός άρθρων : %d"
+  l.store "Your posts : %d", "Έχετε δημοσιεύσει : %d άρθρα "
+  l.store "Total comments : %d", "Συνολικός αριθμός σχολίων : %d"
+  l.store "Spam comments : %d", "Ανεπιθύμητα σχόλια : %d"
 
   # app/views/admin/dashboard/_typo_dev.html.erb
-  l.store "Latest news from the Typo development blog", "Dernières nouvelles du blog officiel de Typo"
-  l.store "Oh no, nothing new", "Rien à déclarer"
+  l.store "Latest news from the Typo development blog", "Τελευταία νέα από το επίσημο ιστολόγιο του Typo"
+  l.store "Oh no, nothing new", "Καμμία νέα είδηση"
 
   # app/views/admin/dashboard/_welcome.html.erb
-  l.store "Welcome back, %s!", "Bienvenue, %s !"
+  l.store "Welcome back, %s!", "Καλώς ήρθατε, %s !"
 
   # app/views/admin/feedback/_button.html.erb
-  l.store "Delete Checked Items", "Supprimer les commentaires sélectionnés"
-  l.store "Mark Checked Items as Ham", "Valider ces commentaires"
-  l.store "Mark Checked Items as Spam", "Marquer ces commentaires comme du spam"
-  l.store "Confirm Classification of Checked Items", "Confirmer la classification des commentaires"
-  l.store "Delete all spam", "Supprimer tout le spam"
+  l.store "Delete Checked Items", "Διαγραφή επιλεγμένων σχολίων"
+  l.store "Mark Checked Items as Ham", "Έγκριση επιλεγμένων σχολίων"
+  l.store "Mark Checked Items as Spam", "Σημείωση επιλεγμένων σχολίων ως ανεπιθύμητα"
+  l.store "Confirm Classification of Checked Items", "Επιβεβαίωση ταξινόμησης των επιλεγμένων σχολίων"
+  l.store "Delete all spam", "Διαγραφή όλων των ανεπιθύμητων"
 
   # app/views/admin/feedback/_form.html.erb
-  l.store "Url", "Site"
-  l.store "Content", "Contenu"
+  l.store "Url", "Ιστολόγιο"
+  l.store "Content", "Περιεχόμενα"
 
   # app/views/admin/feedback/article.html.erb
-  l.store "Comments for %s (%s)", "Commentaires sur l'article %s (%s)"
-  l.store "Edit", "Éditer"
-  l.store "Are you sure?", "Êtes-vous certain ?"
-  l.store "add a comment", "Ajouter un commentaire"
-  l.store "All comments", "Tous les commentaires"
-  l.store "Limit to ham", "Uniquement les commentaires valides"
-  l.store "Limit to spam", "Afficher le spam"
+  l.store "Comments for %s (%s)", "Σχόλια άρθρου %s (%s)"
+  l.store "Edit", "Επεξεργασία"
+  l.store "Are you sure?", "Είστε βέβαιος ;"
+  l.store "add a comment", "Προσθήκη σχολίου"
+  l.store "All comments", "Όλα τα σχόλια"
+  l.store "Limit to ham", "Μόνο τα πιστοποιημένα σχόλια"
+  l.store "Limit to spam", "Προβολή ανεπιθύμητων"
 
   # app/views/admin/feedback/edit.html.erb
-  l.store "Comments for", "Commentaires pour"
+  l.store "Comments for", "Σχόλια για"
 
   # app/views/admin/feedback/index.html.erb
   l.store "Feedback for", "Feedback sur"
