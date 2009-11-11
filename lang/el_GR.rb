@@ -1,4 +1,4 @@
-Localization.define("fr_FR") do |l|
+﻿Localization.define("fr_FR") do |l|
 
   # app/views/accounts/confirm.html.erb
   l.store "You have successfully signed up", "Έχετε εγγραφεί επιτυχώς"
@@ -183,34 +183,34 @@ Localization.define("fr_FR") do |l|
   l.store "Comments for", "Σχόλια για"
 
   # app/views/admin/feedback/index.html.erb
-  l.store "Feedback for", "Feedback sur"
-  l.store "Search Comments and Trackbacks that contain", "Chercher les commentaires et les trackbacks contenant"
-  l.store "Article", "Article"
-  l.store "Comment Excerpt", "Extrait du commentaire"
-  l.store "IP", "Adresse IP"
+  l.store "Feedback for", "Ανατροφοδότηση για"
+  l.store "Search Comments and Trackbacks that contain", "Ψάξε σχόλια και trackbacks που περιέχουν"
+  l.store "Article", "Άρθρο"
+  l.store "Comment Excerpt", "Απόσπασμα άρθρου"
+  l.store "IP", "IP διεύθυνση"
 
   # app/views/admin/pages/_form.html.erb
-  l.store "Options", "Options"
-  l.store "Online", "En ligne"
-  l.store "Page settings", "Paramètres de la page"
+  l.store "Options", "Επιλογές"
+  l.store "Online", "Συνδεδεμένος/η"
+  l.store "Page settings", "Ρυθμίσεις σελίδας"
 
   # app/views/admin/pages/_pages.html.erb
-  l.store "Please select", "Sélectionnez"
-  l.store "Unpublished", "Hors ligne"
+  l.store "Please select", "Παρακαλώ, επιλέξτε:"
+  l.store "Unpublished", "Αδημοσίευτο"
 
   # app/views/admin/pages/destroy.html.erb
-  l.store "Pages","Gérer les pages"
-  l.store "Are you sure you want to delete the page", "Voulez-vous vraiment effacer cette page"
-  l.store "Delete this page", "Supprimer cette page"
+  l.store "Pages","Σελίδες"
+  l.store "Are you sure you want to delete the page", "Είσθε σίγουροι πως θέλετε να αφαιρέσετε την σελίδα αυτή;"
+  l.store "Delete this page", "Σβήσετε αυτή την σελίδα"
 
   # app/views/admin/pages/index.html.erb
-  l.store "Manage pages", "Administrer les pages"
+  l.store "Manage pages", "Διαχείριση σελίδων"
 
   # app/views/admin/profiles/index.html.erb
-  l.store "Your profile", "Votre profil"
+  l.store "Your profile", "Το προφίλ σας"
 
   # app/views/admin/resources/_metadata_add.html.erb
-  l.store "Resource MetaData", "Méta données des pièces jointes"
+  l.store "Resource MetaData", "Πόροι μετα-δεδομένων"
   l.store "Set iTunes metadata for this enclosure", "Ajouter des méta données iTunes pour cette pièce jointe"
   l.store "Subtitle", "Sous-titre"
   l.store "Duration", "Durée"
