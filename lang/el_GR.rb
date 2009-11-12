@@ -211,33 +211,33 @@
 
   # app/views/admin/resources/_metadata_add.html.erb
   l.store "Resource MetaData", "Πόροι μετα-δεδομένων"
-  l.store "Set iTunes metadata for this enclosure", "Ajouter des méta données iTunes pour cette pièce jointe"
-  l.store "Subtitle", "Sous-titre"
-  l.store "Duration", "Durée"
-  l.store "Summary", "Résumé"
-  l.store "Category", "Catégorie"
-  l.store "Key Words", "Mots clé"
-  l.store "seperate with spaces", "séparez-les par des espaces"
-  l.store "Explicit", "Contenu explicite"
+  l.store "Set iTunes metadata for this enclosure", "Ορίσετε μεταδεδομένα των iTunes για αυτό το έγκλειστο μέρος"
+  l.store "Subtitle", "Υπότιτλος"
+  l.store "Duration", "Διάρκεια"
+  l.store "Summary", "Περίληψη"
+  l.store "Category", "Κατηγορία"
+  l.store "Key Words", "Λέξεις-Κλειδιά"
+  l.store "seperate with spaces", "διαχωρίσετε με διαστήματα"
+  l.store "Explicit", "Κατηγορηματικός/Σαφής"
 
   # app/views/admin/resources/_metadata_edit.html.erb
-  l.store "Remove iTunes Metadata", "Supprimer les méta données iTunes"
+  l.store "Remove iTunes Metadata", "Αφαιρέσετε μεταδεδομένα iTunes"
 
   # app/views/admin/resources/_mime_edit.html.erb
-  l.store "Content Type", "Type de contenu"
+  l.store "Content Type", "Τύπος Περιεχομένου"
 
   # app/views/admin/resources/_pages.html.erb
-  l.store "Previous page", "Page précédente"
-  l.store "Next page", "Page suivante"
+  l.store "Previous page", "Προηγούμενη Σελίδα"
+  l.store "Next page", "Επόμενη Σελίδα"
 
   # app/views/admin/resources/_resources.html.erb
-  l.store "Filename", "Fichier"
-  l.store "MetaData", "Méta données"
-  l.store "File Size", "Taille du fichier"
-  l.store "Edit MetaData", "Modifier les méta données"
-  l.store "Add MetaData", "Ajouter des méta données"
-  l.store "delete", "supprimer"
-  l.store "right-click for link", "clic droit pour le lien"
+  l.store "Filename", "Όνομα αρχείου"
+  l.store "MetaData", "Μετα-δεδομένα"
+  l.store "File Size", "Μέγεθος αρχείου"
+  l.store "Edit MetaData", "Τροποποίηση μεταδεδομένων"
+  l.store "Add MetaData", "Αφαίρεση μεταδεδομένων"
+  l.store "delete", "αφαίρεση"
+  l.store "right-click for link", "δεξί-κλίκ για σύνδεσμο"
 
   # app/views/admin/resources/destroy.html.erb
   l.store "Are you sure you want to delete this file", "Êtes-vous certain de vouloir supprimer ce fichier"
