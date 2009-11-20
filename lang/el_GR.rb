@@ -1,4 +1,4 @@
-Localization.define("fr_FR") do |l|
+﻿Localization.define("fr_FR") do |l|
 
   # app/views/accounts/confirm.html.erb
   l.store "You have successfully signed up", "Έχετε εγγραφεί επιτυχώς"
@@ -183,6 +183,7 @@ Localization.define("fr_FR") do |l|
   l.store "Comments for", "Σχόλια για"
 
   # app/views/admin/feedback/index.html.erb
+<<<<<<< HEAD
   l.store "Feedback for", "Εντυπώσεις για"
   l.store "Search Comments and Trackbacks that contain", "Αναζήτηση σχολίων και παραθέσεων που περιέχουν"
   l.store "Article", "Άρθρο"
@@ -196,12 +197,32 @@ Localization.define("fr_FR") do |l|
 
   # app/views/admin/pages/_pages.html.erb
   l.store "Please select", "Παρακαλώ επιλέξτε"
+=======
+  l.store "Feedback for", "Ανατροφοδότηση για"
+  l.store "Search Comments and Trackbacks that contain", "Ψάξε σχόλια και trackbacks που περιέχουν"
+  l.store "Article", "Άρθρο"
+  l.store "Comment Excerpt", "Απόσπασμα άρθρου"
+  l.store "IP", "IP διεύθυνση"
+
+  # app/views/admin/pages/_form.html.erb
+  l.store "Options", "Επιλογές"
+  l.store "Online", "Συνδεδεμένος/η"
+  l.store "Page settings", "Ρυθμίσεις σελίδας"
+
+  # app/views/admin/pages/_pages.html.erb
+  l.store "Please select", "Παρακαλώ, επιλέξτε:"
+>>>>>>> 889bd6d0824c75cab322c6d355be2d71370894f4
   l.store "Unpublished", "Αδημοσίευτο"
 
   # app/views/admin/pages/destroy.html.erb
   l.store "Pages","Σελίδες"
+<<<<<<< HEAD
   l.store "Are you sure you want to delete the page", "Θέλετε σίγουρα να διαγράψετε αυτή τη σελίδα"
   l.store "Delete this page", "Διαγραφή αυτής της σελίδας"
+=======
+  l.store "Are you sure you want to delete the page", "Είσθε σίγουροι πως θέλετε να αφαιρέσετε την σελίδα αυτή;"
+  l.store "Delete this page", "Σβήσετε αυτή την σελίδα"
+>>>>>>> 889bd6d0824c75cab322c6d355be2d71370894f4
 
   # app/views/admin/pages/index.html.erb
   l.store "Manage pages", "Διαχείριση σελίδων"
@@ -210,6 +231,7 @@ Localization.define("fr_FR") do |l|
   l.store "Your profile", "Το προφίλ σας"
 
   # app/views/admin/resources/_metadata_add.html.erb
+<<<<<<< HEAD
   l.store "Resource MetaData", "Πηγές Μεταδεδομένων"
   l.store "Set iTunes metadata for this enclosure", "Προσθήκη μεταδεδομένων iTunes για αυτό το φάκελο"
   l.store "Subtitle", "Υπότιτλος"
@@ -238,6 +260,36 @@ Localization.define("fr_FR") do |l|
   l.store "Add MetaData", "Προσθήκη μεταδεδομένων"
   l.store "delete", "διαγραφή"
   l.store "right-click for link", "δεξί κλικ για το σύνδεσμο"
+=======
+  l.store "Resource MetaData", "Πόροι μετα-δεδομένων"
+  l.store "Set iTunes metadata for this enclosure", "Ορίσετε μεταδεδομένα των iTunes για αυτό το έγκλειστο μέρος"
+  l.store "Subtitle", "Υπότιτλος"
+  l.store "Duration", "Διάρκεια"
+  l.store "Summary", "Περίληψη"
+  l.store "Category", "Κατηγορία"
+  l.store "Key Words", "Λέξεις-Κλειδιά"
+  l.store "seperate with spaces", "διαχωρίσετε με διαστήματα"
+  l.store "Explicit", "Κατηγορηματικός/Σαφής"
+
+  # app/views/admin/resources/_metadata_edit.html.erb
+  l.store "Remove iTunes Metadata", "Αφαιρέσετε μεταδεδομένα iTunes"
+
+  # app/views/admin/resources/_mime_edit.html.erb
+  l.store "Content Type", "Τύπος Περιεχομένου"
+
+  # app/views/admin/resources/_pages.html.erb
+  l.store "Previous page", "Προηγούμενη Σελίδα"
+  l.store "Next page", "Επόμενη Σελίδα"
+
+  # app/views/admin/resources/_resources.html.erb
+  l.store "Filename", "Όνομα αρχείου"
+  l.store "MetaData", "Μετα-δεδομένα"
+  l.store "File Size", "Μέγεθος αρχείου"
+  l.store "Edit MetaData", "Τροποποίηση μεταδεδομένων"
+  l.store "Add MetaData", "Αφαίρεση μεταδεδομένων"
+  l.store "delete", "αφαίρεση"
+  l.store "right-click for link", "δεξί-κλίκ για σύνδεσμο"
+>>>>>>> 889bd6d0824c75cab322c6d355be2d71370894f4
 
   # app/views/admin/resources/destroy.html.erb
   l.store "Are you sure you want to delete this file", "Θέλετε σίγουρα να διαγράψετε αυτό το αρχείο"
