@@ -397,24 +397,24 @@
   l.store "When publishing articles, Typo can send trackbacks to websites that you link to. This should be disabled for private blogs as it will leak non-public information to sites that you're discussing. For public blogs, there's no real point in disabling this.", "Όταν δημοσιεύετε άρθρα, το Typo μπορει να στείλει trackbacks σε ιστοχώρους για τους οποίους έχετε διμουργήσει σύνδεση(link). Αυτή η δυνατότητα πρέπει να επενεργοποιηθεί για προσωπικά ιστολόγια(blogs) καθώς μπορεί να προκαλέσει διαρροή μη κοινόχρηστης πληροφορίας σε ιστοχώρους για τους οποίους συζητάτε. Για κοινόχρηστα ιστολόγια, δεν υπάρχει λόγος για την επενεργοποίηση αυτής της δυνατότητας"
   l.store "Send trackbacks", "Στείλε trackbacks"
   l.store "URLs to ping automatically", "URLs στα οποία να γίνεται ping αυτόματα"
-  l.store "Latitude, Longitude", "Latitude, Longitude"
-  l.store "your lattitude and longitude", "votre lattitude et votre longitude"
-  l.store "exemple", "par exemple"
+  l.store "Latitude, Longitude", "Γεωγραφικό πλάτος, Γεωγραφικό Μήκος"
+  l.store "your lattitude and longitude", "το γεωγραφικό πλάτος και μήκος της τοποθεσίας σας"
+  l.store "exemple", "παράδειγμα"
   l.store "Podcasts", "Podcasts"
-  l.store "The below settings act as defaults when you choose to publish an enclosure with iTunes metadata", "Les options suivantes seront ajoutées automatiquement quand vous publierez des enclosures contenant des métadonnées iTunes"
-  l.store "Setting for channel", "Options des canaux"
-  l.store "Optional Name", "Nom facultatif"
-  l.store "Not published by Apple", "Donnée non publiée par Apple"
-  l.store "Copyright Information", "Informations sur le copyright"
+  l.store "The below settings act as defaults when you choose to publish an enclosure with iTunes metadata", "Οι παρακάτω ρυθμίσεις λειτουργούν σαν προεπιλογή όταν επιλέγετε να δημοσιεύσετε ένα εσώκλειστο τμήμα με iTunes meta-δεδομένα"
+  l.store "Setting for channel", "Ρυθμίσεις για το κανάλι"
+  l.store "Optional Name", "Προαιρετικό όνομα"
+  l.store "Not published by Apple", "Δεν έχει δημοσιευθεί απο την Apple"
+  l.store "Copyright Information", "Πληροφορίες Copyright"
 
   # app/views/admin/sidebar/_availables.html.erb
-  l.store "You have no plugins installed", "Aucun greffon n'est disponible"
+  l.store "You have no plugins installed", "Δεν έχετε εγκατεστημένα αρθρώματα"
 
   # app/views/admin/sidebar/_publish.html.erb
-  l.store "Changes published", "Modifications effectuées"
+  l.store "Changes published", "Οι αλλαγές δημοσιεύθηκαν"
 
   # app/views/admin/sidebar/_target.html.erb
-  l.store "Drag some plugins here to fill your sidebar", "Déplacez des greffons dans cet espace afin de remplir votre sidebar"
+  l.store "Drag some plugins here to fill your sidebar", "Σύρετε εδώ κάποια αρθρώματα για να γεμίσει η καρτέλα σας(sidebar)"
 
   # app/views/admin/sidebar/index.html.erb
   l.store "Drag and drop to change the sidebar items displayed on this blog.  To remove items from the sidebar just click remove  Changes are saved immediately, but not activated until you click the 'Publish' button", "Glissez / déplacez des éléments pour changer la sidebar de votre blog. Pour supprimer un élément de votre sidebar, cliquez simplement sur 'supprimer'. Les changements sont effectués immédiatement, mais ne seront pas actifs tant que vous n'aurez pas cliqué sur le bouton 'Publier'."
