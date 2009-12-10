@@ -417,29 +417,29 @@
   l.store "Drag some plugins here to fill your sidebar", "Σύρετε εδώ κάποια αρθρώματα για να γεμίσει η καρτέλα σας(sidebar)"
 
   # app/views/admin/sidebar/index.html.erb
-  l.store "Drag and drop to change the sidebar items displayed on this blog.  To remove items from the sidebar just click remove  Changes are saved immediately, but not activated until you click the 'Publish' button", "Glissez / déplacez des éléments pour changer la sidebar de votre blog. Pour supprimer un élément de votre sidebar, cliquez simplement sur 'supprimer'. Les changements sont effectués immédiatement, mais ne seront pas actifs tant que vous n'aurez pas cliqué sur le bouton 'Publier'."
-  l.store "Available Items", "Éléments disponibles"
-  l.store "Active Sidebar items", "Éléments utilisés"
-  l.store "Get more plugins", "Télécharger d'autres plugins"
-  l.store "Sidebar", "Plugins"
-  l.store "Publish changes", "Publier les modifications"
+  l.store "Drag and drop to change the sidebar items displayed on this blog.  To remove items from the sidebar just click remove  Changes are saved immediately, but not activated until you click the 'Publish' button",  "Σύρετε και αφήστε ώστε να αλλάξουν στοιχεία της καρτέλας σας(sidebar) που εμφανίζονται σε αυτό το ιστολόγιο. Για να αφαιρέσετε σχοιχεία, απλώς πατήστε  just click 'remove'. Οι αλλαγές αποθηκεύονται αυτόματα, αλλά δεν ενεργοπούνται μέχρι να πατήσετε το κουμπί 'Publish' "
+  l.store "Available Items", "Διαθέσιμα στοιχεία"
+  l.store "Active Sidebar items", "Ενεργά στοιχεία του sidebar"
+  l.store "Get more plugins", "Φόρτωση περισσοτέρων αρθρωμάτων"
+  l.store "Sidebar", "Sidebar/Plugins"
+  l.store "Publish changes", "Δημοσίευση αλλαγών"
 
   # app/views/admin/tags/_form.html.erb
-  l.store "Display name", "Nom affiché sur le site"
+  l.store "Display name", "Το όνομα του ιστολογίου σας"
 
   # app/views/admin/tags/_tags.html.erb
-  l.store "Display Name", "Nom affiché"
+  l.store "Display Name", "Το όνομα του ιστολογίου σας"
 
   # app/views/admin/tags/destroy.html.erb
-  l.store "Are you sure you want to delete the tag", "Êtes-vous certain de vouloir supprimer le tag"
-  l.store "Delete this tag", "Supprimer ce tag"
+  l.store "Are you sure you want to delete the tag", "Είστε σίγουροι πως θέλετε να αφαιρέσετε αυτή την ετικέτα(tag)"
+  l.store "Delete this tag", "Σβήσιμο/Αφαίρεση ετικέτας"
 
   # app/views/admin/tags/edit.html.erb
-  l.store "Editing ", "Vous éditez"
-  l.store "Back to tags list", "Revenir à la liste des tags"
+  l.store "Editing ", "Τροποποίηση"
+  l.store "Back to tags list", "Πίσω στην λίστα ετικετών"
 
   # app/views/admin/tags/index.html.erb
-  l.store "Manage tags", "Gérer les tags"
+  l.store "Manage tags", "Διαχείριση ετικετών"
 
   # app/views/admin/themes/catalogue.html.erb
   l.store "Sorry the theme catalogue is not available", "Désolé le catalogue de thèmes n'est pas disponible"
