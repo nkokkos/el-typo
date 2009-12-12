@@ -473,75 +473,75 @@
   l.store "Use visual rich editor", "Χρήση visual πληρη επεξεργαστή κειμένου"
   l.store "Use simple editor", "Χρήση απλού επεξεργαστή κειμένου"
   l.store "Send notification messages via email", "Στείλε μηνύματα γνωστοποιήσεων μέσω ηλεκτρονικού ταχυδρομείου"
-  l.store "Send notification messages when new articles are posted", "Envoi de notification de messages quand de nouveaux articles sont postés" 
-  l.store "Send notification messages when comments are posted", "Envoi de notification de messages quand des commentaires sont postés"
-  l.store "Contact options", "Options de contact"
-  l.store "Your site", "Votre site"
-  l.store "display url on public profile", "Afficher votre site sur votre profil public"
-  l.store "Your MSN", "Adresse MSN"
-  l.store "display MSN ID on public profile", "Afficher votre adresse MSN sur votre profil public"
-  l.store "Your Yahoo ID", "Identifiant Yahoo"
-  l.store "display Yahoo! ID on public profile", "Afficher votre identifiant Yahoo sur votre profil public"
-  l.store "Your Jabber ID", "Votre identifiant Jabber"
-  l.store "display Jabber ID on public profile", "Afficher votre identifiant Jabber sur votre profil public"
-  l.store "Your AIM id", "Identifiant AIM"
-  l.store "display AIM ID on public profile", "Afficher votre identifiant AIM sur votre profil public"
-  l.store "Your Twitter username", "Identifiant Twitter"
-  l.store "display twitter on public profile", "Afficher votre identifiant Twitter sur votre profil public"
-  l.store "Tell us more about you", "Dites nous en plus à votre sujet"
+  l.store "Send notification messages when new articles are posted", "Στείλε μηνύματα γνωστοποιήσεων όταν δημοσιεύονται καινούργια άρθρα" 
+  l.store "Send notification messages when comments are posted", "Στείλε μηνύματα γνωστοποιήσεων όταν δημοσιεύονται σχόλια"
+  l.store "Contact options", "Επιλογές Επαφής"
+  l.store "Your site", "Η ιστοσελίδα σας"
+  l.store "display url on public profile", "εμφάνισε url στο δημόσιο προφίλ"
+  l.store "Your MSN", "Το MSN σας"
+  l.store "display MSN ID on public profile", "εμφάνισε το ID του MSN στο δημόσιο προφίλ"
+  l.store "Your Yahoo ID", "Το Yahoo ID σας"
+  l.store "display Yahoo! ID on public profile", "εμφάνισε το Yahoo ID στο δημόσιο προφίλ"
+  l.store "Your Jabber ID", "Το Jabber ID σας"
+  l.store "display Jabber ID on public profile", "εμφάνισε το Jabber ID στο δημόσιο προφίλ"
+  l.store "Your AIM id", "To AID ID σας"
+  l.store "display AIM ID on public profile", "εμφάνισε το AIM ID στο δημόσιο προφίλ"
+  l.store "Your Twitter username", "Το όνομα χρήστη που χρησιμοποιείτε στο Twitter"
+  l.store "display twitter on public profile", "εμφάνισε το twitter στο δημόσιο προφίλ"
+  l.store "Tell us more about you", "Πείτε μας περισσότερα για εσάς"
 
   # app/views/admin/users/destroy.html.erb
-  l.store "Really delete user", "Vraiment supprimer cet utilisateur"
-  l.store "Users", "Utilisateurs"
+  l.store "Really delete user", "Είσθε σίγουρος/η για την αφαίρεση του χρήστη"
+  l.store "Users", "Χρήστες"
 
   # app/views/admin/users/edit.html.erb
-  l.store "Edit User", "Modifier un utilisateur"
+  l.store "Edit User", "Επεξεργασία ιδιοτήτων του χρήστη"
 
   # app/views/admin/users/index.html.erb
-  l.store "Comments", "Commentaires"
-  l.store "%s user", "%s"
+  l.store "Comments", "Σχόλια"
+  l.store "%s user", "%s χρήστη"
 
   # app/views/admin/users/new.html.erb
-  l.store "Add User", "Ajouter un utilisateur"
+  l.store "Add User", "Πρόσθεση χρήστη"
 
   # app/views/articles/_article.html.erb
-  l.store "Posted by", "Publié par"
-  l.store "Continue reading...", "Lire la suite..."
+  l.store "Posted by", "Δημοσιεύθηκε απο τον/την"
+  l.store "Continue reading...", "Συνεχίστε να διαβάζετε..."
 
   # app/views/articles/_comment.html.erb
-  l.store "said", "a dit"
-  l.store "This comment has been flagged for moderator approval.  It won't appear on this blog until the author approves it", "Ce commentaire a été envoyé à la modération. Il ne sera affiché qu'une fois approuvé par un modérateur"
+  l.store "said", "ειπώθηκε"
+  l.store "This comment has been flagged for moderator approval.  It won't appear on this blog until the author approves it", "Αυτό το σχόλιο έχει επισυμανθεί για έγκριση απο τον διαχειριστή. Δεν θα εμφανιστεί σε αυτό το ιστολόγιο μέχρι ο συγγραφέας να το εγκρίνει"
 
   # app/views/articles/_comment_box.html.erb
-  l.store "Your name", "Votre nom "
+  l.store "Your name", "Το όνομά σας"
   l.store "(leave url/email &#187;)", ""
-  l.store "Your email", "Votre courriel"
-  l.store "Your message", "Votre commentaire"
-  l.store "Comment Markup Help", "Aide sur le balisage des commentaires"
-  l.store "Preview comment", "Prévisualiser le commentaire"
+  l.store "Your email", "Το email σας"
+  l.store "Your message", "Το μήνυμά σας"
+  l.store "Comment Markup Help", "Βοήθεια για την εγγραφή των σχολίων με Markup"
+  l.store "Preview comment", "Προεπισκόπιση σχολίου"
 
   # app/views/articles/_comment_failed.html.erb
-  l.store "Oops, something wrong happened, the comment could not be saved", ""
+  l.store "Oops, something wrong happened, the comment could not be saved", "Ωχ..  κάποιο λάθος συνέβη. Το σχόλιο ήταν αδύνατο να αποθηκευτεί"
 
   # app/views/articles/_trackback.html.erb
-  l.store "From", "De"
+  l.store "From", "Απο"
 
   # app/views/articles/archives.html.erb
-  l.store "No articles found", "Aucun article ne correspond à la recherche"
-  l.store "posted in", "publié dans"
+  l.store "No articles found", "Δεν βρέθηκαν αρχεία"
+  l.store "posted in", "δημοσιεύθηκε την/στις"
 
   # app/views/articles/comment_preview.html.erb
-  l.store "is about to say", "va dire"
+  l.store "is about to say", "πρόκειται  να πει"
 
   # app/views/articles/groupings.html.erb
-  l.store "There are", "Il y a"
+  l.store "There are", " Υπάρχουν "
 
   # app/views/articles/index.html.erb
-  l.store "Read more", "Lire la suite"
+  l.store "Read more", "Διαβάστε περισσότερα"
 
   # app/views/articles/read.html.erb
-  l.store "Leave a response", "Réagir à ce billet"
-  l.store "Trackbacks", ""
+  l.store "Leave a response", "Αφήστε μια απάντηση"
+  l.store "Trackbacks", "Trackbacks"
   l.store "Use the following link to trackback from your own site", "Utilisez le lien ci-dessous pour envoyer un trackback depuis votre site"
   l.store "RSS feed for this post", "Flux RSS de ce billet"
   l.store "trackback uri", "URL de rétrolien"
