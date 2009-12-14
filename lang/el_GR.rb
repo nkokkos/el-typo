@@ -454,7 +454,7 @@
   l.store "Get more themes", "Λήψη περισσότερων θεμάτων"
   l.store "You can download third party themes from officially supported %s ", "Μπορείτε να μεταφορτώσετε/κατεβάσετε θέματα απο τρίτο φορέα που υποστηρίζονται επίσημα απο  %s "
   l.store "Typogarden", "Typogarden"
-  l.store "To install a theme you  just need to upload the theme folder into your themes directory. Once a theme is uploaded, you should see it on this page.", "Για να εγκαταστήσετε ένα θέμα πρέπει απλών να μεταφορτώσετε τον φάκελο θεμάτων μέσα στον κατάλογο θεμάτων. Μόλις ένα θέμα φορτωθεί, θα το δείτε σε αυτήν την σελίδα"
+  l.store "To install a theme you  just need to upload the theme folder into your themes directory. Once a theme is uploaded, you should see it on this page.", "Για να εγκαταστήσετε ένα θέμα πρέπει απλώς να μεταφορτώσετε τον φάκελο θεμάτων μέσα στον κατάλογο θεμάτων. Μόλις ένα θέμα φορτωθεί, θα το δείτε σε αυτήν την σελίδα"
   l.store "Choose a theme", "Διαλέξτε ένα θέμα"
 
   # app/views/admin/users/_form.html.erb
@@ -542,28 +542,28 @@
   # app/views/articles/read.html.erb
   l.store "Leave a response", "Αφήστε μια απάντηση"
   l.store "Trackbacks", "Trackbacks"
-  l.store "Use the following link to trackback from your own site", "Utilisez le lien ci-dessous pour envoyer un trackback depuis votre site"
-  l.store "RSS feed for this post", "Flux RSS de ce billet"
-  l.store "trackback uri", "URL de rétrolien"
-  l.store "Comments are disabled", "Les commentaires sont désactivés"
+  l.store "Use the following link to trackback from your own site", "Χρησιμοποιήστε την ακόλουθη σύνδεση για να κάνετε trackback απο το δικό σας site."
+  l.store "RSS feed for this post", "Ροη Ειδήσεων RSS για αυτή την δημοσίευση"
+  l.store "trackback uri", "trackback URL"
+  l.store "Comments are disabled", "Τα σχόλια έχουν απενεργοποιηθεί"
 
   # app/views/authors/show.html.erb
-  l.store "Web site:", "Site web:"
+  l.store "Web site:", "Διεύθυνση ιστοσελίδας:"
   l.store "MSN:", "MSN :"
   l.store "Yahoo:", "Yahoo :"
   l.store "Jabber:", "Jabber :"
   l.store "AIM:", "AIM :"
   l.store "Twitter:", "Twitter :"
-  l.store "About %s", "À propos de %s"
-  l.store "This author has not published any article yet", "Cet utilisateur n'a publié aucun article"
+  l.store "About %s", "Σχετικά με %s"
+  l.store "This author has not published any article yet", "Ο συγγραφέας δεν έχει δημοσιεύσει άρθρα ακόμη"
 
   # app/views/comments/show.html.erb
-  l.store "This comment has been flagged for moderator approval.", "Ce commentaire est en attente de modération"
+  l.store "This comment has been flagged for moderator approval.", "Αυτό το σχόλιο έχει επισυμανθεί για έγκριση απο τον/την διαχειριστή/ια"
 
   # app/views/layouts/administration.html.erb
-  l.store "log out", "déconnexion"
-  l.store "your blog", "votre blog"
-  l.store "Dashboard", "Tableau de bord"
+  l.store "log out", "αποσύνδεση"
+  l.store "your blog", "Το ιστολόγιό σας"
+  l.store "Dashboard", "Ταμπλό εργασίας
 
   # test/mocks/themes/typographic/layouts/default.html.erb
   l.store "Powered by %s", "Propulsé par %s"
