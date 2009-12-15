@@ -563,35 +563,35 @@
   # app/views/layouts/administration.html.erb
   l.store "log out", "αποσύνδεση"
   l.store "your blog", "Το ιστολόγιό σας"
-  l.store "Dashboard", "Ταμπλό εργασίας
+  l.store "Dashboard", "Εργαλειοθήκη"
 
   # test/mocks/themes/typographic/layouts/default.html.erb
-  l.store "Powered by %s", "Propulsé par %s"
-  l.store "Designed by %s ", "Design par %s"
+  l.store "Powered by %s", "Υποστηριζόμενο απο το %s"
+  l.store "Designed by %s ", "Σχεδιάστηκε απο τον/την %s"
 
   # test/mocks/themes/typographic/views/articles/_article.html.erb
-  l.store "This entry was posted on %s", "Ce billet a été posté le %s"
-  l.store "and %s", "et %s"
-  l.store "You can follow any any response to this entry through the %s", "Vous pouvez suivre la discussion autour de cet article via le %s"
-  l.store "Atom feed", "flux Atom"
-  l.store "You can leave a %s", "Vous pouvez déposer un %s"
-  l.store "or a %s from your own site", "ou un %s depuis votre site"
-  l.store "Read full article", "Lien permanent"
-  l.store "comment", "commentaire"
+  l.store "This entry was posted on %s", "Αυτή η καταχώριση δημοσιεύθηκε στις %s"
+  l.store "and %s", "και %s"
+  l.store "You can follow any any response to this entry through the %s", "μπορείτε να ακολουθήσετε οποιαδήποτε απάντηση σε αυτήν την καταχώριση μέσω του %s"
+  l.store "Atom feed", "Atom feed"
+  l.store "You can leave a %s", "Μπορείτε να αφήσετε ένα %s"
+  l.store "or a %s from your own site", "ή ένα %s απο το δικό σας site"
+  l.store "Read full article", "Διαβάστε το πλήρη άρθρο"
+  l.store "comment", "σχόλιο"
   l.store "trackback", "trackback"
-  l.store "no comments", "aucun commentaire"
-  l.store "1 comment", "1 commentaire"
-  l.store "%d comments", "%d commentaires"
+  l.store "no comments", "καθόλου σχόλια"
+  l.store "1 comment", "1 σχόλιο"
+  l.store "%d comments", "%d σχόλια"
 
   # test/mocks/themes/typographic/views/articles/_comment.html.erb
-  l.store "later", "plus tard"
+  l.store "later", "αργότερα"
 
   # test/mocks/themes/typographic/views/articles/_comment_form.html.erb
-  l.store "Leave a comment", "laisser un commentaire"
-  l.store "Name %s", "Votre nom %s"
-  l.store "enabled", "activés"
-  l.store "never displayed", "jamais affiché"
-  l.store "Website", "Votre site"
+  l.store "Leave a comment", "Αφήστε ένα σχόλιο"
+  l.store "Name %s", "Όνομα %s"
+  l.store "enabled", "ενεργοποιημένο"
+  l.store "never displayed", "δεν εμφανίστηκε ποτέ"
+  l.store "Website", "Ιστοσελίδα"
   l.store "Textile enabled", "Textile activé"
   l.store "Markdown enabled", "Markdown activé"
   l.store "required", "obligatoire"
