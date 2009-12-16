@@ -592,47 +592,47 @@
   l.store "enabled", "ενεργοποιημένο"
   l.store "never displayed", "δεν εμφανίστηκε ποτέ"
   l.store "Website", "Ιστοσελίδα"
-  l.store "Textile enabled", "Textile activé"
-  l.store "Markdown enabled", "Markdown activé"
+  l.store "Textile enabled", "Το Texttile είναι ενεργοποιημένο"
+  l.store "Markdown enabled", "Το Markdown είναι ενεργοποιημένο"
   l.store "required", "obligatoire"
-  l.store "Preview", "Prévisualiser "
-  l.store "Submit", "Envoyer"
+  l.store "Preview", "Προεπισκόπιση "
+  l.store "Submit", "Υποβολή"
 
   # test/mocks/themes/typographic/views/articles/_comment_list.html.erb
-  l.store "No comments", "Pas de commentaires"
+  l.store "No comments", "Δεν επιτρέπονται τα σχόλια"
 
   # test/mocks/themes/typographic/views/shared/_search.html.erb
-  l.store "Searching", "Recherche en cours"
+  l.store "Searching", "Αναζήτηση.."
 
   # themes/dirtylicious/layouts/default.html.erb
-  l.store "Home", "Accueil"
-  l.store "About", "À propos"
-  l.store "Designed by %s ported to typo by %s ", "Design par %s porté sous Typo par %s"
+  l.store "Home", "Αρχική Σελίδα"
+  l.store "About", "Σχετικά"
+  l.store "Designed by %s ported to typo by %s ", "Σχεδιασμός απο τον/την %s μεταφέρθηκε στο Typo απο τον/την %s"
 
   # themes/scribbish/layouts/default.html.erb
-  l.store "styled with %s", "stylé avec %s"
+  l.store "styled with %s", "χρήση στύλ/style με %s"
 
   # themes/scribbish/views/articles/_article.html.erb
-  l.store "Meta", "Méta"
-  l.store "permalink", "lien permanent"
+  l.store "Meta", "Meta"
+  l.store "permalink", "permalink"
 
   # themes/scribbish/views/articles/_comment_form.html.erb
-  l.store "leave url/email", "laissez votre url/courriel"
+  l.store "leave url/email", "αφήστε url/email"
 
   # vendor/plugins/archives_sidebar/views/content.rhtml
-  l.store "Archives", "Archives"
+  l.store "Archives", "Αποθηκευμένα θέματα"
 
   # vendor/plugins/authors_sidebar/views/content.rhtml
-  l.store "Authors", "Auteurs"
+  l.store "Authors", "Συγγραφείς"
 
   # vendor/plugins/xml_sidebar/views/content.rhtml
-  l.store "Syndicate", "Suivre ce blog"
+  l.store "Syndicate", "Syndicate"
 
   # app/controllers/accounts_controller.rb
-  l.store "Login successful", "Connexion réussie"
-  l.store "Login unsuccessful", "Échec de la connexion"
-  l.store "Successfully logged out", "Vous êtes maintenant déconnecté"
-  l.store "login", "identifiant"
+  l.store "Login successful", "Σύνδεση επιτυχής"
+  l.store "Login unsuccessful", "Αποτυχημένη σύνδεση"
+  l.store "Successfully logged out", "Επιτυχή αποσύνδεση"
+  l.store "login", "Σύνδεση"
   l.store "signup", "s'identifier"
 
   # app/controllers/admin/blacklist_controller.rb
