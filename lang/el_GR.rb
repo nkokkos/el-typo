@@ -636,27 +636,27 @@
   l.store "signup", "s'identifier"
 
   # app/controllers/admin/blacklist_controller.rb
-  l.store "Blacklist Pattern was successfully created.", "Cette entrée a été créée avec succès"
-  l.store "Blacklist Pattern could not be created.", "Cette entrée n'a pas pu être créée"
-  l.store "BlacklistPattern was successfully updated.", "Cette entrée a été mise à jour avec succès"
-  l.store "Blacklist Pattern could not be updated.", "Cette entrée n'a pas pu être mise à jour"
+  l.store "Blacklist Pattern was successfully created.", "Το σχήμα Μαύρης Λίστας δημιουργήθηκε"
+  l.store "Blacklist Pattern could not be created.", "Το σχήμα Μαύρης Λίστας ήταν αδύνατο να δημιουργηθεί"
+  l.store "Blacklist Pattern was successfully updated.", "Το σχήμα Μαύρης Λίστας ενημερώθηκε επιτυχώς"
+  l.store "Blacklist Pattern could not be updated.", "Το σχήμα Μαύρης Λίστας ήταν αδύνατο να ενημερωθεί"
 
   # app/controllers/admin/cache_controller.rb
-  l.store "HTML was cleared", "le cache a est vidé"
+  l.store "HTML was cleared", "Ο κώδικας HTML αφαιρέθηκε"
 
   # app/controllers/admin/categories_controller.rb
-  l.store "Category was successfully saved.", "La catégorie a été enregistrée avec succès"
-  l.store "Category could not be saved.", "La catégorie n'a pas pu être sauvée"
+  l.store "Category was successfully saved.", "Η κατηγορία αποθηκεύθηκε επιτυχώς"
+  l.store "Category could not be saved.", "Ήταν αδύνατο να αποθηκευθεί η κατηγορία"
 
   # app/controllers/admin/content_controller.rb
-  l.store "Error, you are not allowed to perform this action", "Erreur, vous n'avez pas les droits requis pour effectuer cette action"
-  l.store "Article was successfully created", "Cet article a été créé avec succès"
-  l.store "Article was successfully updated.", "Cet article a été mis à jour avec succès"
+  l.store "Error, you are not allowed to perform this action", "Σφάλμα! Δεν σας επιτρέπεται να εκτελέσετε αυτήν την ενέργεια"
+  l.store "Article was successfully created", "Το άρθρο δημιουργήθηκε επιτυχώς"
+  l.store "Article was successfully updated.", "Το άρθρο ενημερώθηκε επιτυχώς"
 
   # app/controllers/admin/feedback_controller.rb
-  l.store "Deleted", "Supprimé"
-  l.store "Not found", "Introuvable"
-  l.store "Deleted %d item(s)", "%d commentaires ont été supprimés"
+  l.store "Deleted", "Διαγραμένα"
+  l.store "Not found", "Δεν βρέθηκε/καν"
+  l.store "Deleted %d item(s)", "σβήστηκε/αν %d στοιχεία"
   l.store "Marked %d item(s) as Ham", "%d commentaires ont été validés"
   l.store "Marked %d item(s) as Spam", "%d commentaires ont été marqués comme spam"
   l.store "Confirmed classification of %s item(s)", "La classification de %d commentaires a été validée"
