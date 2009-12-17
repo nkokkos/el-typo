@@ -673,25 +673,25 @@
   l.store "User was successfully updated.", "Ο χρήστης ενημερώθηκε επιτυχώς."
 
   # app/controllers/admin/resources_controller.rb
-  l.store "Error occurred while updating Content Type.", "Une erreur est survenue lors de la mise à jour du type du contenu."
-  l.store "complete", "complet"
-  l.store "File uploaded: ", "Fichier uploader: "
-  l.store "Unable to upload", "impossible d'uploader"
-  l.store "Metadata was successfully removed.", "Les Metadata ont été supprimé avec succès."
-  l.store "Metadata was successfully updated.", "Les Metadata ont été mis à jour avec succès."
-  l.store "Not all metadata was defined correctly.", "Aucun metada n'a été défini correctement."
-  l.store "Content Type was successfully updated.", "Le type du contenu a été mis à jour avec succès."
+  l.store "Error occurred while updating Content Type.", "Συνέβη ένα λάθος κατά την διάρκεια ενημέρωσης του Content Type"
+  l.store "complete", "πλήρες"
+  l.store "File uploaded: ", "Το αρχείο μεταφορτώθηκε: "
+  l.store "Unable to upload", "Η μεταφόρτωση ήταν αδύνατη"
+  l.store "Metadata was successfully removed.", "Τα δεδομένα Metadata αφαιρέθηκαν επιτυχώς."
+  l.store "Metadata was successfully updated.", "Τα δεδομένα Metadata ενημερώθηκαν επιτυχώς."
+  l.store "Not all metadata was defined correctly.", "Δεν ορίστηκαν σωστά όλα τα δεδομένα metadata."
+  l.store "Content Type was successfully updated.", "Επιτυχής ενημέρωση του Content Type."
 
   # app/controllers/admin/settings_controller.rb
-  l.store "Settings", "Configurations"
-  l.store "Please review and save the settings before continuing", "S'il vérifiez et enregistrer votre configuration avant de continuer"
-  l.store "config updated.", "Configuration mis à jour."
+  l.store "Settings", "Ρυθμίσεις"
+  l.store "Please review and save the settings before continuing", "Παρακαλώ πολύ κάνετε προεπισκόπιση και αποθηκεύσετε τις ρυθμίσεις πριν συνεχίσετε"
+  l.store "config updated.", "οι ρυθμίσεις ανανεώθηκαν."
 
   # app/controllers/admin/sidebar_controller.rb
-  l.store "It seems something went wrong. Maybe some of your sidebars are actually missing and you should either reinstall them or remove them manually", "Une erreur s'est produite. Un ou plusieurs plugins sont probablement manquants ou en erreur. Peut-être devriez-vous les supprimer ou les réinstaller"
+  l.store "It seems something went wrong. Maybe some of your sidebars are actually missing and you should either reinstall them or remove them manually", "Φαίνεται πως κάποιο λάθος συνέβη. Ίσως κάποια απο τα sidebar σας δεν υπάρχουν και θα πρέπει να τα επαναεγκαταστήσετε ή να τα αφαιρέσετε ο/η ίδιος/α"
 
   # app/controllers/admin/tags_controller.rb
-  l.store "Tag was successfully updated.", "Le tag a été mis à jour avec succès"
+  l.store "Tag was successfully updated.", "Το Tag ενημερώθηκε επιτυχώς"
 
   # app/controllers/admin/themes_controller.rb
   l.store "Theme changed successfully", "Le thème a été changé avec succès"
