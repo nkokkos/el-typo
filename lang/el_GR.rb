@@ -657,20 +657,20 @@
   l.store "Deleted", "Διαγραμένα"
   l.store "Not found", "Δεν βρέθηκε/καν"
   l.store "Deleted %d item(s)", "σβήστηκε/αν %d στοιχεία"
-  l.store "Marked %d item(s) as Ham", "%d Marked as ..(delete this later) commentaires ont été validés"
-  l.store "Marked %d item(s) as Spam", "%d commentaires ont été marqués comme spam"
-  l.store "Confirmed classification of %s item(s)", "La classification de %d commentaires a été validée"
-  l.store "Not implemented", "Non implémenté"
-  l.store "All spam have been deleted", "Tout le spam a été supprimé"
-  l.store "Comment was successfully created.", "Commentaire crée avec succès."
-  l.store "Comment was successfully updated.", "Commentaire mis à jour avec succès."
+  l.store "Marked %d item(s) as Ham", "Επισημάνθηκε/αν %d στοιχείο/α σαν Ham"
+  l.store "Marked %d item(s) as Spam", "Επισημάνθηκε/αν %d στοιχεία σαν spam"
+  l.store "Confirmed classification of %s item(s)", "Επικυρωμένη ταξινόμηση %d στοιχείου/ων"
+  l.store "Not implemented", "Δεν έχει υλοποιηθεί"
+  l.store "All spam have been deleted", "Όλα τα στοιχεία spam έχουν αφαιρεθεί"
+  l.store "Comment was successfully created.", "Το σχόλιο δημιουργήθηκε επιτυχώς."
+  l.store "Comment was successfully updated.", "Το σχόλιο ενημερώθηκε επιτυχώς."
 
   # app/controllers/admin/pages_controller.rb
-  l.store "Page was successfully created.", "Cette page a été créée avec succès"
-  l.store "Page was successfully updated.", "Cette page a été mise à jour avec succès"
+  l.store "Page was successfully created.", "Η σελίδα δημιουργήθηκε επιτυχώς."
+  l.store "Page was successfully updated.", "Η σελίδα ενημερώθηκε επιτυχώς."
 
   # app/controllers/admin/profiles_controller.rb
-  l.store "User was successfully updated.", "L'utilisateur a été mis à jour avec succès."
+  l.store "User was successfully updated.", "Ο χρήστης ενημερώθηκε επιτυχώς."
 
   # app/controllers/admin/resources_controller.rb
   l.store "Error occurred while updating Content Type.", "Une erreur est survenue lors de la mise à jour du type du contenu."
