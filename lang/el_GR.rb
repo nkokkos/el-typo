@@ -657,7 +657,7 @@
   l.store "Deleted", "Διαγραμένα"
   l.store "Not found", "Δεν βρέθηκε/καν"
   l.store "Deleted %d item(s)", "σβήστηκε/αν %d στοιχεία"
-  l.store "Marked %d item(s) as Ham", "%d commentaires ont été validés"
+  l.store "Marked %d item(s) as Ham", "%d Marked as ..(delete this later) commentaires ont été validés"
   l.store "Marked %d item(s) as Spam", "%d commentaires ont été marqués comme spam"
   l.store "Confirmed classification of %s item(s)", "La classification de %d commentaires a été validée"
   l.store "Not implemented", "Non implémenté"
